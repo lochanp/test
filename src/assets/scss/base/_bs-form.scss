@@ -1,0 +1,244 @@
+.bs-form {
+    .form-item {
+        margin: 5rem 0 7rem;
+    }
+
+    .form-lbl {
+        font-size: 1.6rem;
+        line-height: 1.2;
+        font-weight: $font-xtralight;
+        text-transform: capitalize;
+    }
+
+
+    .form-field {
+        position: relative;
+
+        .form-lbl {
+            position: absolute;
+            top: 1.8rem;
+            font-size: 1.8rem;
+            left: 0;
+            transition: all 0.4s;
+        }
+
+        .form-control {
+            font-size: 2.4rem;
+            font-weight: $font-light;
+            font-family: $barlow-condensed;
+            border: 0;
+            width: 100%;
+            padding: 1.2rem 0;
+            transition: all 0.4s;
+            border-bottom: 1px solid #d8d8d8;
+
+            &:focus {
+                border: 0;
+                outline: none;
+                border-bottom: 1px solid $clr-black;
+
+                // +.form-lbl {
+                //     top: -2rem;
+                // }
+            }
+
+            &:focus~label,
+            &:valid~label {
+                top: -2rem;
+                font-size: 1.6rem;
+            }
+
+
+            // &:valid {
+            //     +.form-lbl {
+            //         top: -2rem;
+            //     }
+        }
+
+        select.form-control {
+            padding: 1.1rem 0;
+        }
+
+    }
+
+    .cm-act-wrap {
+        margin: 3rem 0;
+
+        .btn {
+            margin-right: 5rem;
+            font-size: 1.8rem;
+        }
+    }
+
+    .radio-list {
+        display: flex;
+
+        +.form-lbl {
+            top: -2rem;
+        }
+
+        .item {
+            margin-right: 5rem;
+
+            &:last-child {
+                margin-right: 0;
+
+            }
+        }
+    }
+
+    .form-item {
+        &.typ-col {
+            display: flex;
+            align-items: flex-start;
+
+            .form-field {
+                margin-right: 5%;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        &.typ-currency {
+            .currency {
+                width: 20%;
+
+            }
+
+            .amount {
+                width: 100%;
+            }
+        }
+
+        &.typ-unit {
+            .unit {
+                width: 20%;
+            }
+
+            .width {
+                width: 45%;
+            }
+
+            .height {
+                width: 45%;
+            }
+        }
+    }
+
+    &.typ-2 {
+        font-size: 1.8rem;
+
+        .form-lbl {
+            font-family: $barlow-condensed;
+            font-weight: $font-medium;
+            position: static;
+            margin-bottom: 1.8rem;
+            display: flex;
+        }
+
+
+
+        .bs-radio {
+            input+label {
+                font-family: $barlow-condensed;
+            }
+        }
+
+        .form-item {
+            margin: 0rem 0 5rem;
+
+            &.typ-col {
+                align-items: flex-end;
+            }
+
+            &.typ-frame-brdr-size {
+                .size-unit {
+                    width: 36%;
+                }
+
+                .dimension {
+                    width: 64%
+                }
+            }
+        }
+
+        .form-field {
+            select {
+                &.form-control {
+                    padding: 0 0 0.6rem 0;
+                }
+            }
+
+            .form-control {
+                font-size: 1.8rem;
+                padding: 0 0 0.7rem 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $media-xs) {
+    .bs-form {
+        .form-item {
+            margin: 4rem 0 5rem;
+        }
+
+        .form-field {
+            .form-control {
+                font-size: 1.8rem;
+                padding: 0.8rem 0;
+
+                &:focus~label,
+                &:valid~label {
+                    top: -1.5rem;
+                    font-size: 1.4rem;
+                }
+            }
+
+            select {
+                &.form-control {
+                    font-size: 1.8rem;
+                    padding: 0.7rem 0;
+                }
+            }
+
+            .form-lbl {
+                font-size: 1.4rem;
+                top: 1.1rem;
+            }
+        }
+
+        .cm-act-wrap .btn {
+            margin-right: 3rem;
+            font-size: 1.6rem;
+        }
+
+        .form-item {
+            &.typ-col {
+                .form-field {
+                    margin-right: 6%;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+
+            }
+
+            &.typ-currency {
+                .currency {
+                    width: 30%;
+
+                }
+            }
+
+            &.typ-unit {
+                .unit {
+                    width: 30%;
+                }
+            }
+        }
+    }
+}

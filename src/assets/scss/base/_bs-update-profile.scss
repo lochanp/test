@@ -1,0 +1,39 @@
+.bs-update-profile {
+    display: flex;
+
+    .profile-img {
+        width: 25%;
+        margin-right: 5%;
+
+        .wrapper {
+            position: sticky;
+            top: 5rem;
+            display: block;
+        }
+
+        .upload-pic {
+            margin-top: 1rem;
+        }
+    }
+
+    .profile-detail {
+        width: 52%;
+    }
+}
+
+@media only screen and (max-width: $media-xs) {
+    .bs-update-profile {
+        display: block;
+
+        .profile-img {
+            width: 100%;
+            margin-right: 0%;
+            margin-bottom: 3rem;
+
+        }
+
+        .profile-detail {
+            width: 100%;
+        }
+    }
+}

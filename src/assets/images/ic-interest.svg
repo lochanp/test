@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+    <defs>
+        <filter id="2hwd4o0eia" color-interpolation-filters="auto">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.952941 0 0 0 0 0.568627 0 0 0 0 0.003922 0 0 0 1.000000 0"/>
+        </filter>
+        <path id="mch3i1x38b" d="M0 0L44 0 44 44 0 44z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g filter="url(#2hwd4o0eia)" transform="translate(-926.000000, -783.000000)">
+            <g transform="translate(926.000000, 783.000000)">
+                <mask id="n2bp55p3gc" fill="#fff">
+                    <use xlink:href="#mch3i1x38b"/>
+                </mask>
+                <g mask="url(#n2bp55p3gc)">
+                    <g>
+                        <path fill="#000" d="M24.067 1.88c1.748 0 3.5.664 4.846 2.001 2.69 2.674 2.689 6.968 0 9.645L16.5 25.88c-4.139-4.112-8.274-8.227-12.412-12.339-2.692-2.673-2.692-6.97 0-9.644 2.691-2.674 7-2.674 9.691 0l2.35 2.348c.201.194.524.194.725 0l2.366-2.364c1.346-1.337 3.098-2 4.846-2M24.584 0c-2.156 0-4.306.807-5.95 2.441L16.5 4.579l-2.133-2.121c-3.29-3.268-8.611-3.268-11.9 0-3.29 3.268-3.29 8.55 0 11.818l13.654 13.568c.215.208.56.208.774 0L30.534 14.26c3.286-3.271 3.29-8.55 0-11.818C28.89.807 26.74 0 24.584 0" transform="translate(6.000000, 8.000000)"/>
+                        <path fill="#F39100" d="M16 9H18V17H16z" transform="translate(6.000000, 8.000000)"/>
+                        <path fill="#F39100" d="M16 9L18 9 18 17 16 17z" transform="translate(6.000000, 8.000000) translate(17.000000, 13.000000) rotate(90.000000) translate(-17.000000, -13.000000)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

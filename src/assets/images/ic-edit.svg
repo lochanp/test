@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+    <defs>
+        <filter id="sp50lm4u2a" color-interpolation-filters="auto">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.341176 0 0 0 0 0.482353 0 0 0 0 0.874510 0 0 0 1.000000 0"/>
+        </filter>
+        <path id="zqwamxhpbb" d="M0 0L24 0 24 24 0 24z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <path d="M0 0H44V44H0z" transform="translate(-286.000000, -198.000000) translate(286.000000, 198.000000)"/>
+                <g filter="url(#sp50lm4u2a)" transform="translate(-286.000000, -198.000000) translate(286.000000, 198.000000)">
+                    <g>
+                        <path fill="#000" d="M10.117 17.648l.405-2.46L20.788 2.308c.309-.339.6-.518.844-.518.105 0 .235 0 .366.079l.898.617c.267.208.206.707-.14 1.161L12.43 16.633l-2.314 1.015zM9 19l4.023-1.788L23.5 4.072c.38-.443.556-.971.483-1.45-.053-.347-.23-.63-.512-.818l-.964-.572C22.276 1.074 21.98 1 21.575 1h-.016c-.509.053-1.007.348-1.404.833L9.73 14.873 9 19z" transform="translate(10.000000, 10.000000)"/>
+                        <g transform="translate(10.000000, 10.000000)">
+                            <mask id="77p106gqrc" fill="#fff">
+                                <use xlink:href="#zqwamxhpbb"/>
+                            </mask>
+                            <path fill="#000" d="M23.216 7.242v14.106c0 1.002-.815 1.817-1.816 1.817H2.6c-1.001 0-1.816-.815-1.816-1.817V2.601C.784 1.599 1.599.784 2.6.784h14.26V0H2.6C1.167 0 0 1.167 0 2.6v18.8C0 22.832 1.167 24 2.6 24h18.8c1.433 0 2.6-1.167 2.6-2.6V7.241h-.784z" mask="url(#77p106gqrc)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

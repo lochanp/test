@@ -1,0 +1,217 @@
+.bs-iconinfo-list {
+  .iconinfo-list-item {
+    // margin-right: 25px;
+  }
+}
+// .alltag-box :hover {
+//   background: $clr-orange !important;
+//   color: #ffff !important;
+// }
+// .tags-container :hover {
+//   color: #ffff !important;
+// }
+
+.Dropdown-menu {
+  margin-top: 1px !important;
+}
+.my-masonry-grid {
+  margin-left: -64px;
+  .my-masonry-grid_column {
+    padding-left: 0px;
+    margin-left: 64px;
+    .bs-info-card {
+      margin-bottom: 64px;
+      .iconinfo-list-item {
+        margin-right: 19px !important;
+      }
+      .card-info-lbl {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+.item-icon {
+  margin-right: 5px;
+  img {
+    width: 16px;
+    height: 19px;
+  }
+}
+//home
+.end-custom-separator {
+  width: 95%;
+  height: 1px;
+  background-color: #cccccc;
+  border: none;
+}
+
+.footer-artist-list {
+  width: 100% !important;
+}
+.search-info {
+  margin-top: 0px !important;
+}
+.back-action {
+  margin-top: 15px;
+}
+.search-results-container {
+  margin-top: 0px !important;
+  .search-results-total {
+    font-family: $barlow-condensed !important;
+  }
+  .search-tag{
+    font-family: $barlow-condensed;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+    background-color: #e4e4e4;
+    padding: 6px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+}
+//artits
+.artist-card-heading {
+  margin-top: 50px;
+}
+//view-artwork
+.nav-option {
+  cursor: pointer;
+  span {
+    color: $clr-blue;
+  }
+  // &:hover{
+  //   span {
+  //     color: $clr-orange;
+  //   }
+  // }
+}
+.tag-labels {
+  font-family: $barlow-condensed !important;
+}
+.bs-artwork-detail {
+  // justify-content: flex-start;
+  .artwork-detail {
+    padding-left: 0px;
+    margin-left: 70px;
+    min-width: 645px !important;
+    .artist-detail {
+      margin-bottom: 15px;
+    }
+  }
+}
+.series {
+  color: $clr-blue;
+  font-weight: 500;
+  cursor: pointer;
+}
+.all-functions-container {
+  .fnc {
+    cursor: pointer;
+  }
+}
+.cart_counter_container {
+  div {
+    strong {
+      font-size: 24px !important;
+    }
+  }
+}
+.artist-commentary-video {
+  width: 315px;
+  height: 201px;
+}
+.artist-profile{
+  .artist-details {
+    grid-gap: 60px;
+    button {
+      color: $clr-blue !important;
+    }
+    .artist-profile {
+      margin-left: 30px;
+    }
+  }
+}
+.artist-actions {
+  justify-content: center;
+  margin: 0 !important;
+  .artist-counters {
+    margin-top: 50px !important;
+    justify-content: center !important;
+    div {
+      margin: 0 45px !important;
+    }
+  }
+  .artist-action-buttons {
+    grid-gap: 5.3rem !important;
+    gap: 5.3rem !important;
+  }
+}
+.artist-artworks {
+  .search-results-container {
+    .search-results-total {
+      margin: 20px 0 20px 0;
+    }
+  }
+}
+.artist-about {
+  margin-left: 30px;
+  justify-content: flex-start !important;
+  margin-top: 50px;
+}
+//events
+.eventpage-heading {
+  margin-top: 50px !important;
+}
+.date-container {
+  margin-top: 50px !important;
+}
+//view-events
+.main-container {
+  // justify-content: flex-start;
+}
+.detail-container {
+  min-width: 645px;
+  max-width: 55%;
+  .details-byline {
+    margin: 24px 0 15px 0;
+  }
+  .meta-info-container {
+    .list {
+      .item:first-child {
+        margin-bottom: 9px;
+      }
+    }
+    .icons {
+      img {
+        margin-bottom: 10px;
+      }
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+}
+.recommendation-container {
+  .title {
+    margin-bottom: 0px;
+  }
+}
+.info-title {
+  cursor: pointer;
+}
+.tags :hover {
+  background-color: $clr-orange !important;
+  cursor: pointer;
+  color: #ffff;
+}
+
+//footer
+.bottom-wrap {
+  font-family: $barlow-condensed !important;
+}

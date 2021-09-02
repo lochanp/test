@@ -1,0 +1,52 @@
+.header-list{
+    margin-top: 18px;
+    .main-header-list{
+        display: flex;
+        gap: 20px;
+        .active-item{
+            font-weight: 600;
+        }
+        li{
+            font-family: $barlow;
+            font-size: 18px;
+            font-weight: 200;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000;
+        }
+    }
+}
+
+.modal-container{
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    outline: none;
+    border: none;
+    background: white;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    
+    .close-button{
+        cursor: pointer;
+        position: absolute;
+        right: 50px;
+        top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $barlow-condensed;
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: condensed;
+        font-style: normal;
+        color: #000;
+    }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="23px" viewBox="0 0 26 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow-left-blue</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.341176 0 0 0 0 0.482353 0 0 0 0 0.874510 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <polygon id="path-2" points="0 0 26 0 26 23 0 23"></polygon>
+    </defs>
+    <g id="Preliminary-Registeration---Web-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow-left-blue" transform="translate(-33.000000, -610.000000)" filter="url(#filter-1)">
+            <g transform="translate(46.000000, 621.500000) scale(-1, 1) translate(-46.000000, -621.500000) translate(33.000000, 610.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M25.7303539,10.8523269 C25.7044086,10.8265122 25.6599309,10.8375757 25.6339855,10.8117609 C25.6117467,10.7859462 25.6228661,10.7453802 25.5969208,10.7195655 L15.0927688,0.268288772 C14.7332407,-0.0894295907 14.151324,-0.0894295907 13.7880894,0.268288772 C13.4285612,0.629694953 13.4285612,1.20868241 13.7880894,1.56640077 L22.8541288,10.5831162 L0.66345914,10.5831162 C0.296518051,10.5831162 0,10.8818295 0,11.2506113 L0,11.6193931 C0,11.9881749 0.296518051,12.2868882 0.66345914,12.2868882 L22.9875619,12.2868882 L13.7880894,21.4363651 C13.4285612,21.7940835 13.4285612,22.3767587 13.7880894,22.7344771 C13.9697067,22.9151802 14.2069211,23 14.4404291,23 C14.68135,23 14.914858,22.9151802 15.0927688,22.7344771 L25.7303539,12.1504389 C26.089882,11.7927206 26.089882,11.2100453 25.7303539,10.8523269" id="Fill-1" fill="#FFFFFF" mask="url(#mask-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

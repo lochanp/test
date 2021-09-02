@@ -1,0 +1,147 @@
+.bs-exibition-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+
+    .exit {
+        cursor: pointer;
+        position: absolute;
+        font-weight: $font-medium;
+        top: 2rem;
+        right: 2rem;
+        height: 3.5rem;
+        line-height: 3.2rem;
+        text-align: center;
+        width: 3.5rem;
+        background: $clr-black;
+        z-index: 1;
+        border-radius: 50%;
+        color: $clr-white;
+    }
+
+    .gallery-pic {
+        .img-wrap {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+    }
+
+    .gallery-actual-view {
+        .img-wrap {
+            display: none;
+
+            &.active {
+                display: block;
+            }
+        }
+    }
+
+    .gallery-view-option {
+        position: absolute;
+        bottom: 13rem;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+
+        .icon {
+            width: 5.2rem;
+            height: 5.2rem;
+            cursor: pointer;
+            text-align: center;
+            background: $clr-white;
+            display: block;
+            text-align: center;
+            font-size: 2rem;
+            line-height: 5.2rem;
+            border-radius: 50%;
+            margin-right: 2.4rem;
+
+            &.active {
+                color: $clr-white;
+                background: $clr-black;
+            }
+        }
+    }
+
+    .gallery-details {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: $clr-white;
+        display: flex;
+        padding: 1.8rem 3rem;
+
+        .meta-item {
+            margin-right: 2.5rem;
+            width: 100%;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        .logo-wrap {
+            img {
+                height: 6rem;
+                width: auto;
+            }
+        }
+
+        .label,
+        .value {
+            font-size: 1.6rem;
+            font-family: $barlow-condensed;
+            line-height: 2rem;
+        }
+
+        .label {
+            opacity: 0.41;
+        }
+
+        .bs-icon-text-list {
+            padding-bottom: 0;
+            border: 0;
+        }
+    }
+
+    .view-basic-blan {
+        cursor: pointer;
+        position: absolute;
+        font-weight: $font-medium;
+        top: 2rem;
+        left: 2rem;
+        height: 3.5rem;
+        line-height: 3.5rem;
+        text-align: center;
+        width: 3.5rem;
+        background: $clr-white;
+        z-index: 1;
+        border-radius: 50%;
+    }
+
+    .gallery-plan {
+        position: absolute;
+        top: 6rem;
+        left: 5rem;
+        display: none;
+        width: 26rem;
+        padding: 3rem 1.6rem 1.6rem;
+        background: $clr-white;
+
+        .close {
+            cursor: pointer;
+            position: absolute;
+            font-weight: $font-medium;
+            top: 0.5rem;
+            right: 0.5rem;
+            padding: 0.5rem 1rem;
+        }
+    }
+}

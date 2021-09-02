@@ -1,0 +1,55 @@
+.bs-exhibition-modes {
+    .item {
+        margin: 2.2rem 0 3.8rem;
+    }
+
+    .bs-checkbox {
+        label {
+            display: flex;
+            align-items: center;
+            padding-right: 4.5rem;
+        }
+
+        input+label:before {
+            top: 50%;
+            left: inherit;
+            right: 0;
+            transform: translateY(-50%);
+        }
+
+        input+label:after {
+            top: 50%;
+            left: inherit;
+            right: 0.5rem;
+            transform: translateY(-50%) rotate(-37deg);
+            margin-top: -0.2rem;
+        }
+
+        .icon {
+            width: 5.2rem;
+            height: 5.2rem;
+            text-align: center;
+            background: #eaeaea;
+            font-size: 1.8rem;
+            line-height: 5.2rem;
+            border-radius: 50%;
+            margin-right: 2.4rem;
+        }
+
+        .title {
+            font-size: 2.4rem;
+            font-family: $barlow-condensed;
+            font-weight: $font-medium;
+            line-height: 2.7rem;
+            margin-bottom: 0.6rem;
+        }
+
+        .rent {
+            font-weight: $font-light;
+
+            .label {
+                font-weight: $font-medium;
+            }
+        }
+    }
+}

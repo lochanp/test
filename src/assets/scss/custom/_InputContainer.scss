@@ -1,0 +1,89 @@
+.inputContainer{
+    border-bottom: 1px solid #d8d8d8;
+    margin-top: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // background: red;
+    input{
+        border: none;
+        outline: none;
+        padding: 0;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 36px;
+        font-weight: 200;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: 0.78;
+        letter-spacing: -1.32px;
+        // width: 100%;
+    }
+    input::placeholder{
+        color: #d4d4d4;
+    }
+    input[type="password"] {
+        border: none;
+        outline: none;
+        padding: 0;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 36px;
+        font-weight: 200;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: 0.78;
+        letter-spacing: -1.32px;
+    }
+    .ok-error-img{
+        height: 24px;
+    }
+}
+
+.login-input-container{
+    margin-top: 21px;
+    display: flex;
+    flex-direction: column;
+    .login-input-fields{
+        border: none;
+        border-bottom: 1px solid #d8d8d8;
+        margin-bottom: 30px;
+        display: flex;
+        input{
+            border: none;
+            outline: none;
+            padding: 0;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 24px;
+            font-weight: 200;
+            font-stretch: condensed;
+            font-style: normal;
+            line-height: 1.17;
+            letter-spacing: -0.88px;
+            width: 100%;
+        }
+        input::placeholder{
+            color: #d4d4d4;
+        }
+    }
+}
+
+.errorContainer{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #ff0000;
+}
+
+.password-control-img{
+    width: 26px;
+    // height: 16px;
+}
+
+@media screen and (max-device-width: 480px) {
+    input[type='password'] {
+      -webkit-text-size-adjust: none;
+    }
+}

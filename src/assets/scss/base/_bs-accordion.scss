@@ -1,0 +1,99 @@
+.bs-accordion {
+    .acc-head {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      padding: 1.5rem 0;
+      position: relative;
+      cursor: pointer;
+      // padding-left: 2.4rem;
+      font-weight: $font-medium;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  
+      // &:before {
+      //     content: "-";
+      //     color: #f39100;
+      //     font-size: 2.4rem;
+      //     left: 0.5rem;
+      //     position: absolute;
+      // }
+  
+      &.collapsed {
+        //  border-top: 1px solid #d8d8d8;
+        font-weight: $font-light;
+  
+        &:before {
+          content: '+';
+        }
+      }
+    }
+  
+    &.typ-big {
+      .acc-head {
+        font-size: 3rem;
+        font-weight: $font-medium;
+        line-height: 4rem;
+  
+        border-top: 0;
+      }
+  
+      .accord-cont {
+        border: 0;
+        border-bottom: 1px solid #000;
+      }
+    }
+  }
+  
+  .fade {
+    opacity: 0;
+    transition: opacity 0.15s linear;
+  }
+  
+  .fade.show {
+    opacity: 1;
+  }
+  
+  .collapse {
+    display: none;
+  }
+  
+  .collapse.show {
+    display: block;
+  }
+  
+  tr.collapse.show {
+    display: table-row;
+  }
+  
+  tbody.collapse.show {
+    display: table-row-group;
+  }
+  
+  .collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease;
+  }
+  
+  @media only screen and (max-width: $media-xs) {
+    .bs-accordion {
+      &.typ-big {
+        .acc-head {
+          font-size: 1.8rem;
+          line-height: 2.1rem;
+  
+          &:before {
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+  }
+  
+  .acc-collapse-img {
+    width: 24px;
+    height: 24px;
+  }
+  

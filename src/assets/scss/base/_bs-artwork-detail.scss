@@ -1,0 +1,349 @@
+.bs-artwork-detail {
+  display: flex;
+  justify-content: center;
+  .img-wrap {
+    min-width: 45%;
+    max-width: 45%;
+  }
+
+  .artwork-detail {
+    // min-width: 55%;
+    max-width: 55%;
+    padding-left: 6%;
+
+    .bs-icon-text-list {
+      margin-bottom: 1.2rem;
+    }
+
+    .tmpl-title {
+      font-size: 8.4rem;
+      font-family: $barlow-condensed;
+      line-height: 7.5rem;
+      margin-bottom: 1.8rem;
+      font-weight: $font-light;
+    }
+  }
+
+  .artist-detail {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+    .artist-avtar {
+      width: 4.5rem;
+      height: 4.5rem;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 1.6rem;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .artist-name {
+      font-size: 2.4rem;
+      line-height: 4rem;
+      font-weight: $font-xtralight;
+    }
+  }
+
+  .artwork-meta-info {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin-bottom: 2rem;
+
+    .meta-info-title {
+      font-weight: $font-medium;
+    }
+
+    .list {
+      .item {
+        display: flex;
+        gap: 3px;
+      }
+    }
+  }
+
+  .about-artwork-title {
+    font-size: 1.6rem;
+    padding: 1.6rem 0 0.8rem;
+    font-weight: $font-medium;
+  }
+
+  .about-arteork-desc {
+    line-height: 2.6rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .original-info {
+    .acc-head {
+      font-size: 1.8rem;
+      line-height: 2.6rem;
+      padding: 1.3rem 0;
+      position: relative;
+      border-top: 1px solid #666666;
+      border-bottom: 1px solid #cccccc;
+      font-weight: $font-medium;
+    }
+  }
+
+  .print-info {
+    .item {
+      position: relative;
+      padding: 0.7rem 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .fnc-increment {
+        position: absolute;
+        right: 6rem;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      + .item {
+        border-top: 1px solid #d8d8d8;
+      }
+    }
+
+    .print-price-info {
+      font-size: 2.4rem;
+      line-height: 3rem;
+      font-weight: $font-medium;
+    }
+
+    .print-size-lbl {
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+      display: flex;
+      flex-wrap: wrap;
+      // flex-direction: column;
+      padding: 0.6rem 0;
+    }
+
+    .size-unit {
+      padding: 0 1rem;
+      line-height: 1.3rem;
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      + .size-unit {
+        border-left: 1px solid #000;
+      }
+    }
+
+    .btn-add-to-cart {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      color: $clr-orange;
+      transform: translateY(-50%);
+      font-size: 3rem;
+      display: flex;
+    }
+  }
+
+  .size-add-to-cart {
+    .item {
+      .fnc-increment {
+        display: none;
+      }
+
+      .btn-tik {
+        display: none;
+        position: relative;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 2.4rem;
+        height: 2.4rem;
+        transform: translateY(-50%);
+
+        &:before {
+          content: '';
+          position: absolute;
+          width: 2.4rem;
+          height: 2.4rem;
+          border-radius: 50%;
+          background: $clr-green;
+          bottom: 0;
+          left: 0%;
+          transition: all 0.2s;
+        }
+
+        &:after {
+          content: '';
+          position: absolute;
+          width: 1.4rem;
+          height: 0.8rem;
+          z-index: 1;
+          bottom: 1rem;
+          left: 0.5rem;
+          z-index: 2;
+          transform: rotate(-37deg);
+          border-bottom: 3px solid $clr-white;
+          border-left: 3px solid $clr-white;
+        }
+      }
+
+      &.added {
+        .btn-tik,
+        .fnc-increment {
+          display: block;
+        }
+
+        .btn-add-to-cart {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .comment-info {
+    .comment-list {
+      .comment-list-item {
+        padding: 1rem 0;
+
+        + .comment-list-item {
+          border-top: 1px solid #d8d8d8;
+        }
+      }
+    }
+
+    .comment-title {
+      font-size: 1.2rem;
+      font-weight: $font-medium;
+      line-height: 2rem;
+    }
+
+    .comment-desc {
+      line-height: 2.6rem;
+    }
+  }
+
+  .frame-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    .item {
+      max-width: 10.5rem;
+      margin-right: 1.7rem;
+      padding: 1.4rem 0 2rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .frame-info {
+      label {
+        padding-bottom: 3.6rem;
+        display: block;
+      }
+    }
+
+    .frame-img {
+      border: solid 1px #cbcbcb;
+    }
+
+    .frame-lbl {
+      margin: 1rem 0;
+      line-height: 1.7rem;
+    }
+
+    .frame-price {
+      font-size: 1.6rem;
+      font-weight: $font-medium;
+    }
+  }
+}
+
+@media only screen and (max-width: $media-xs) {
+  .bs-artwork-detail {
+    display: block;
+
+    .img-wrap {
+      min-width: 100%;
+      max-width: 100%;
+    }
+
+    .bs-iconinfo-list {
+      border-bottom: 1px solid #d8d8d8;
+    }
+
+    .artwork-detail {
+      min-width: 100%;
+      max-width: 100%;
+      padding-left: 0%;
+
+      .tmpl-title {
+        font-size: 3.6rem;
+        font-weight: $font-medium;
+        line-height: 4rem;
+        margin: 1rem 0;
+      }
+
+      .artist-name {
+        font-size: 1.6rem;
+      }
+
+      .bs-icon-text-list {
+        margin-bottom: 2.2rem;
+        padding: 2rem 0;
+        justify-content: space-between;
+        background: brown;
+        .icon-text-list-item {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .print-info {
+      .item {
+        padding: 1.5rem 0% 1.1rem 0;
+
+        .fnc-increment {
+          bottom: 2rem;
+          right: 0;
+          top: inherit;
+          transform: none;
+        }
+      }
+
+      .btn-add-to-cart {
+        top: 1.8rem;
+        transform: none;
+      }
+
+      .print-size-lbl {
+        display: block;
+      }
+
+      .size-unit {
+        padding: 0;
+        display: block;
+        line-height: 2.4rem;
+
+        + .size-unit {
+          border-left: 0;
+        }
+      }
+    }
+
+    .frame-list {
+      .item {
+        max-width: 28%;
+        margin-right: 8%;
+
+        &:nth-child(3n) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

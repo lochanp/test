@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <defs>
+        <polygon id="path-1" points="0 0 12 0 12 12 0 12"></polygon>
+    </defs>
+    <g id="Artist-Registeration---Web-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.-Landing-Page-Artist/Web-App" transform="translate(-103.000000, -651.000000)">
+            <g id="Group-3" transform="translate(103.000000, 651.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M12,6 C12,6.11544304 11.9574684,6.21751899 11.884557,6.29407595 L11.7691139,6.41559494 L6.57478481,11.8803038 C6.41681013,12.0401013 6.16708861,12.0401013 6.01518987,11.8803038 C5.85721519,11.7138228 5.85721519,11.4513418 6.01518987,11.2915443 L10.6499241,6.41559494 L0.395544304,6.41559494 C0.176202532,6.41559494 0,6.23027848 0,6 C0,5.76972152 0.176202532,5.58379747 0.395544304,5.58379747 L10.6499241,5.58379747 L6.01518987,0.708455696 C5.86329114,0.541974684 5.86329114,0.280101266 6.01518987,0.119696203 C6.16708861,-0.0401012658 6.42288608,-0.0401012658 6.57478481,0.119696203 L11.884557,5.70592405 C11.9574684,5.78248101 12,5.88455696 12,6" id="Fill-1" fill="#577BDF" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

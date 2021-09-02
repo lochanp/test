@@ -1,0 +1,177 @@
+.bs-sec {
+    padding: 4.5rem 0;
+
+    .related-products {
+        .p-list {
+            //  max-width: 100%;
+            // display: flex;
+            margin: 0 -3rem;
+
+            .p-item {
+                width: 25%;
+                padding: 0 3rem;
+                margin-bottom: 5rem;
+            }
+        }
+    }
+
+    .grid-sizer {
+        width: 25%;
+    }
+
+    .tab-content {
+        .related-products {
+            .p-list {
+                display: flex;
+            }
+        }
+    }
+
+    // .gutter-sizer {
+    //     width: 1%;
+    // }
+
+    .sec-head {
+        line-height: 4.2rem;
+        padding: 2rem 0 3rem;
+        border-top: 1px solid #d8d8d8;
+
+        .desc {
+            font-size: 1.8rem;
+        }
+
+        .title {
+            font-size: 3.6rem;
+            font-weight: $font-medium;
+        }
+    }
+
+    .bs-artist-info {
+        +.related-products {
+            margin-top: 4.5rem;
+        }
+    }
+
+    // &.typ-top-border {
+    //     .container {
+    //         padding-top: 4rem;
+    //         border-top: 1px solid #d8d8d8;
+    //     }
+    // }
+    .act-wrap {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .bs-sec {
+        .related-products {
+            .p-list {
+
+                margin: 0 -2rem;
+
+                .p-item {
+                    padding: 0 2rem;
+                    margin-bottom: 4rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .bs-sec {
+        .related-products {
+            .p-list {
+                margin: 0 -1.6rem;
+
+                .p-item {
+                    padding: 0 1.6rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .bs-sec {
+
+        .related-products {
+            .p-list {
+                //  max-width: 100%;
+                // display: flex;
+                margin: 0 -1.6rem;
+
+                .p-item {
+                    width: 33.33%;
+                    padding: 0 1.6rem;
+                    margin-bottom: 5rem;
+                }
+            }
+
+
+        }
+
+        .grid-sizer {
+            width: 33.33%;
+        }
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 900px) {
+    .bs-sec {
+
+        .related-products {
+            .bs-iconinfo-list .iconinfo-list-item {
+                margin-right: 1.4rem;
+                font-size: 1.7rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $media-xs) {
+    .bs-sec {
+        padding: 2.5rem 0;
+
+        .related-products {
+            .p-list {
+                display: block;
+                margin: 0 0;
+
+                .p-item {
+                    width: 100%;
+                    padding: 0;
+                    margin-bottom: 4rem;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+
+        .tab-content {
+            .related-products {
+                .p-list {
+                    display: block;
+                }
+            }
+        }
+
+        .sec-head {
+            line-height: 4rem;
+            padding: 1rem 0 2.5rem;
+
+            // .desc {
+            //     font-size: 1.8rem;
+            // }
+
+            // .title {
+            //     font-size: 3.6rem;
+            //     font-weight: $font-medium;
+            // }
+        }
+    }
+}

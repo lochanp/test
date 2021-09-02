@@ -1,0 +1,135 @@
+// .caraousel-main-container{
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// }
+
+// .caraousel-container{
+//     display: flex;
+//     // flex-wrap: wrap;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: space-between;
+
+//     width: 100%;
+//     max-width: 625px;
+  
+//     /* max-width: 39.063rem; */
+//   }
+  
+//   #carousel-button{
+//       width: 44px;
+//       height: 4px;
+//       /* padding-right: 3px;
+//       padding-left: 3px; */
+//       margin: 29px 3px 50px 3px;
+  
+//       cursor: pointer;
+//   }
+  
+//   .caraousel-button-container{
+//     height: 62px;
+
+//     width: 100%;
+//     max-width: 581px;
+  
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     align-items: center;
+//     justify-content: center;
+  
+//     // padding-right: 40px;
+//     // padding-left: 40px;
+  
+//     overflow: hidden;
+//     /* overflow-x: scroll; */
+//   }
+
+//   .caraousel-image-container{
+
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       width: 100%;
+//       max-width: 625px;
+//       height: 100%;
+//       max-height: 625px;
+
+//     .caraousel-image{
+//       all: revert;
+//       width: 100%;
+//       max-width: 625px;
+//       height: 100%;
+//       max-height: 625px;
+//     }
+//   }
+
+  
+//   .image-controls {
+//     cursor: pointer;
+//     // padding: 0.8rem;
+//     width: 22px;
+//     height: 14px;
+//   }
+  
+// //   .caraousel-image{
+// //     width: 400px;
+// //     height: 500px;
+// //   }
+
+
+// // for the color functionality of buttons
+
+// .carousel-buttons-color{
+//   width: 44px;
+//   height: 4px;
+//   margin: 29px 3px 50px 3px;
+//   cursor: pointer;
+//   background-color: #cccccc;
+  
+// }
+
+// .color-holding-active{
+//   background-color: #007db2;
+// }
+
+// @media only screen and ( max-width: 725px ){
+//   .caraousel-container {
+//       flex-wrap: nowrap;
+    
+//       width: 100%;
+//       max-width: 65rem;
+//   }
+// }
+
+// @media only screen and ( min-width: $media-xs ) and (max-width: 1500px) {
+//   .caraousel-container {
+//       flex-wrap: nowrap;
+//       width: 100%;
+//       max-width: 61rem;
+//   }
+// }
+
+// @media only screen and ( min-width: 1470px ) and (max-width: $media-xl) {
+//   .carousel-buttons-color{
+//     width: 44px;
+//   }
+// }
+
+// @media only screen and ( min-width: $media-xs ) and (max-width: 1470px) {
+//   .carousel-buttons-color{
+//     width: 24px;
+//   }
+// }
+
+// @media only screen and (max-width: $media-xs ){
+//   .carousel-buttons-color{
+//     width: 100%;
+    
+//     max-width: 44px;
+//   }
+// }
+
+
+

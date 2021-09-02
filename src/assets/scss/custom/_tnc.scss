@@ -1,0 +1,60 @@
+.tncContainer{
+    // display: flex;
+    // flex-direction: column;
+    // font-family: 'Barlow Condensed', sans-serif;
+    // font-size: 14px;
+    // font-weight: 200;
+    // font-stretch: condensed;
+    // font-style: normal;
+    // line-height: 1.43;
+    // letter-spacing: normal;
+    // color: #666666;
+    // overflow-y: scroll;
+    // max-height: 60%;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    height: 48.5%;
+    width: 100%;
+    span{
+        font-weight: 500;
+        color: #000000;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .tncContainer{
+        // overflow-y: scroll;
+        height: 48.5%;  
+    }
+}
+
+
+iframe::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  iframe {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.checkboxActionContainer{
+    display: flex;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.51px;
+    color: #231f20;
+
+    .customCheckbox{
+        width: 16px;
+        height: 16px;
+        margin-right: 12px;
+    }
+}

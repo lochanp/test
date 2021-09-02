@@ -1,0 +1,107 @@
+.bs-gallery-summary {
+    position: absolute;
+    background: $clr-white;
+    padding: 2rem;
+    width: 29rem;
+    top: 10%;
+    right: 20%;
+
+    .close {
+        cursor: pointer;
+        position: absolute;
+        font-weight: $font-medium;
+        top: 0.5rem;
+        right: 0.5rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .artist-name {
+        font-weight: $font-xtralight;
+        margin-bottom: 0.5rem;
+    }
+
+    .gallery-name {
+        font-size: 2.4rem;
+        font-family: $barlow-condensed;
+        font-weight: $font-medium;
+        margin-bottom: 0.6rem;
+    }
+
+    .gallery-meta {
+        margin-bottom: 2rem;
+
+        .meta-info-title {
+            font-weight: $font-medium;
+        }
+
+        .item {
+            display: flex;
+            margin: 0.6rem 0;
+        }
+    }
+
+    .desc {
+        font-weight: $font-xtralight;
+        line-height: 1.6rem;
+    }
+
+    .price-wrap {
+        border-top: 1px solid #d8d8d8;
+        border-bottom: 1px solid #d8d8d8;
+        padding: 1.2rem 0;
+        margin-top: 1.6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .price {
+            font-size: 2.4rem;
+            font-weight: $font-medium;
+        }
+
+        .cart-btn {
+            color: #f39100;
+            font-size: 2.2rem;
+        }
+    }
+
+    .view-details {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #55a8cb;
+        padding: 1.2rem 0;
+
+        .text {
+            font-weight: $font-medium;
+            font-size: 1.6rem;
+        }
+
+        .icon {
+            font-size: 2rem;
+
+        }
+    }
+
+    .bs-icon-text-list {
+        justify-content: space-between;
+        padding-bottom: 0;
+        border-bottom: 0;
+        padding-top: 2rem;
+        border-top: 1px solid #d8d8d8;
+
+        .icon-text-list-item {
+            margin-right: 0;
+
+            .mod-icon-text {
+                .icon {
+                    font-size: 2.6rem;
+                }
+
+                .text {
+                    font-weight: $font-light;
+                }
+            }
+        }
+    }
+}

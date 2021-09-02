@@ -1,0 +1,56 @@
+.bs-upload-img-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .item {
+        min-width: 35rem;
+        min-height: 35rem;
+        position: relative;
+        margin-bottom: 5rem;
+
+        &:last-child,
+        &:nth-last-child(2) {
+            margin-bottom: 0;
+        }
+    }
+
+    label {
+        background: #e1f0fa;
+        display: block;
+        height: 100%;
+        cursor: pointer;
+
+        &:before {
+            content: "+";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 6rem;
+            color: #334b65;
+            font-weight: $font-medium;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    input[type="file"] {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        width: 0;
+        height: 0;
+    }
+}
+
+@media only screen and (max-width: $media-xs) {
+    .bs-upload-img-list {
+        justify-content: flex-start;
+
+        .item {
+            min-width: 13rem;
+            min-height: 13rem;
+            margin-bottom: 2.5rem;
+            margin-right: 2.5rem;
+        }
+    }
+}

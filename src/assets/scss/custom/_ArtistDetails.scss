@@ -1,0 +1,463 @@
+.artist-profile {
+  width: 100%;
+
+  .featured-artwork {
+    height: 381px;
+    background-image: url('../../images/dummy/Bitmap2.jpg');
+    background-size: 100%;
+    background-position: 0% 30%;
+  }
+  .artist-details {
+    display: flex;
+    gap: 64px;
+    .artist-profile {
+      flex: 0.15;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transform: translateY(-78px);
+      img {
+        height: 156px;
+        width: 156px;
+        border-radius: 50%;
+        border: 7px solid #fff;
+      }
+      p {
+        font-family: $barlow-condensed;
+        font-size: 24px;
+        font-weight: 500;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.88px;
+        text-align: center;
+        color: #231f20;
+      }
+      h2 {
+        font-family: $barlow-condensed;
+        font-size: 36px;
+        font-weight: 200;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -1.32px;
+        text-align: center;
+        color: #000000;
+      }
+      h4 {
+        font-family: $barlow-condensed;
+        font-size: 14px;
+        font-weight: 300;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+      }
+    }
+  }
+
+  .artist-actions {
+    flex: 0.35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0;
+    .artist-counters {
+      display: flex;
+      justify-content: space-around;
+      div {
+        h2 {
+          font-family: $barlow-condensed;
+          font-size: 24px;
+          font-weight: 300;
+          font-stretch: condensed;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          text-align: center;
+          color: #000000;
+        }
+        p {
+          font-family: $barlow-condensed;
+          font-size: 14px;
+          font-weight: 300;
+          font-stretch: condensed;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          text-align: center;
+          color: #000000;
+        }
+      }
+    }
+    .bs-iconinfo-list {
+      display: flex;
+      justify-content: center;
+      .iconinfo-list-item {
+        margin-right: 25px;
+      }
+    }
+    hr {
+      width: 100%;
+    }
+    .artist-action-buttons {
+      margin-top: 25px;
+      display: flex;
+      gap: 6.4rem;
+      .nav-option {
+        img {
+          height: 14px;
+          width: 22px;
+        }
+        span {
+          color: #577bdf;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .artist-about {
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    h2 {
+      font-family: $barlow;
+      font-size: 18px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #000000;
+    }
+    p {
+      font-family: $barlow;
+      font-size: 14px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.86;
+      letter-spacing: normal;
+      color: #000000;
+    }
+    div {
+      font-family: $barlow;
+      font-size: 18px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #55a8cb;
+      display: flex;
+      gap: 100px;
+      button {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        font-family: $barlow;
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #577bdf;
+        img {
+          height: 32px;
+          width: 32px;
+        }
+      }
+    }
+  }
+}
+
+.contactModal-page {
+  background-color: #fff;
+  justify-content: center;
+  z-index: 1000;
+  .close-icon {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    cursor: pointer;
+    font-family: $barlow-condensed;
+    font-weight: 300;
+    top: 55px;
+    right: 60px;
+    span {
+      margin-top: 3px;
+    }
+    img {
+      height: 25px;
+      width: 25px;
+      margin: 0 10px;
+    }
+  }
+  .modalMain-content {
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+  }
+  .modal-title {
+    font-size: 24px;
+    font-weight: 500;
+    width: 645px;
+    text-align: start;
+  }
+  .contact-form {
+    display: flex;
+    width: 645px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .seperator {
+      height: 1px;
+      background-color: black;
+      width: 100%;
+    }
+    .input-container {
+      width: 645px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      border-bottom: solid 1px #d8d8d8;
+
+      input {
+        font-family: $barlow-condensed;
+        font-size: 30px;
+        font-weight: 200;
+        font-stretch: condensed;
+        font-style: normal;
+        letter-spacing: -1.32px;
+        color: #000;
+        width: 100%;
+        border: none;
+        outline: none;
+        height: 75px;
+      }
+    }
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    /* Firefox */
+    input[type='number'] {
+      -moz-appearance: textfield;
+    }
+    .mob {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      width: 645px;
+
+      input {
+        font-family: $barlow-condensed;
+        font-size: 30px;
+        font-weight: 200;
+        font-stretch: condensed;
+        font-style: normal;
+        letter-spacing: -1.32px;
+        color: #000;
+        border: none;
+        outline: none;
+        height: 75px;
+        border-bottom: solid 1px #d8d8d8;
+        width: 100%;
+      }
+      .custom-border {
+        height: 0.8px;
+        width: 75px;
+        background-color: #cccc;
+        margin: 0;
+        border: none;
+      }
+      .dropdown-container {
+        margin-right: 30px;
+      }
+
+      .Dropdown-root {
+        width: 75px;
+        position: relative;
+        font-family: 'Barlow Condensed', sans-serif;
+        height: 75px;
+      }
+
+      .Dropdown-control {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 200;
+        font-stretch: condensed;
+        font-style: normal;
+        letter-spacing: -1.32px;
+        color: #000;
+        position: relative;
+        overflow: hidden;
+        box-sizing: border-box;
+        cursor: default;
+        outline: none;
+        transition: all 200ms ease;
+      }
+
+      .Dropdown-arrow {
+        // border-color: rgb(0, 0, 0) transparent transparent;
+        // border-style: solid;
+        // border-width: 8px 6px 0;
+        content: '';
+        display: block;
+        // height: 0;
+        /* margin-top: -ceil(2.5); */
+        position: absolute;
+        right: 10px;
+        // top: 41px;
+        // width: 0;
+        background-image: url('../../../assets/images/triangle-copy-4.svg');
+        height: 9px;
+        width: 9px;
+        background-size: 9px 9px;
+      }
+
+      .is-open .Dropdown-arrow {
+        // border-color: transparent transparent rgb(0, 0, 0);
+        // border-width: 0 6px 8px;
+        background-image: url('../../../assets/images/triangle-copy-4.svg');
+        transform: rotate(180deg);
+      }
+
+      .Dropdown-menu {
+        background-color: #f5f5f5;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+        box-sizing: border-box;
+        margin-top: -1px;
+        max-height: 200px;
+        overflow-y: auto;
+        position: absolute;
+        top: 100%;
+        width: 90px;
+        z-index: 1000;
+        right: 1px;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .Dropdown-menu .Dropdown-group > .Dropdown-title {
+        padding: 8px 10px;
+        color: rgba(51, 51, 51, 1);
+        font-weight: bold;
+        text-transform: capitalize;
+      }
+
+      .Dropdown-option {
+        box-sizing: border-box;
+        color: rgba(51, 51, 51, 0.8);
+        cursor: pointer;
+        display: flex;
+        // padding: 8px 10px;
+        font-family: $barlow;
+        font-size: 14px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 54px;
+      }
+
+      .Dropdown-option:last-child {
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+      }
+
+      .Dropdown-option:hover {
+        color: #000;
+        font-weight: 500;
+      }
+
+      .Dropdown-option.is-selected {
+        color: #000;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-weight: 500;
+        padding-left: 15px;
+      }
+      .Dropdown-option.is-selected::before {
+        content: '';
+        background: url('../../images/ic-check.svg');
+        background-size: 100% 100%;
+        height: 24px;
+        width: 24px;
+        display: flex;
+      }
+
+      .Dropdown-noresults {
+        box-sizing: border-box;
+        color: #ccc;
+        cursor: default;
+        display: block;
+        padding: 8px 10px;
+      }
+    }
+    .buttons {
+      display: flex;
+      flex-direction: row;
+
+      .arrow-img {
+        margin: 5px;
+      }
+      .contact-btn {
+        display: flex;
+        flex-direction: row;
+        float: right;
+        margin: 1rem;
+        span {
+          color: $clr-blue;
+          font-family: $barlow-condensed;
+          font-size: 24px;
+          font-weight: 200;
+        }
+      }
+    }
+  }
+}
+
+.artist-artworks {
+  .search-results-container {
+    .search-results-total {
+      font-family: $barlow-condensed;
+      font-size: 36px;
+      font-weight: 300;
+      font-stretch: condensed;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #000000;
+    }
+  }
+}
+
+@media only screen and (max-width: $media-xs) {
+  .artist-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .artist-about {
+    button {
+      // display: flex;
+      flex-direction: column;
+    }
+  }
+}

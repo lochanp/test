@@ -1,0 +1,39 @@
+.bs-iconinfo-list {
+  display: flex;
+  padding: 0.3rem 0;
+
+  .iconinfo-list-item {
+    margin-right: 2rem;
+    font-size: 1.8rem;
+    display: flex;
+    line-height: 4.2rem;
+    align-items: center;
+
+    .item-icon {
+      margin-right: 0.3rem;
+    }
+
+    .icon.rotate {
+      transform: rotate(270deg);
+      display: block;
+    }
+
+    .red {
+      color: red;
+    }
+
+    .blue {
+      color: #007db2;
+    }
+  }
+}
+
+@media only screen and (max-width: $media-xs) {
+  .bs-iconinfo-list {
+    .iconinfo-list-item {
+      width: 100%;
+      margin-right: 0px;
+      justify-content: center;
+    }
+  }
+}

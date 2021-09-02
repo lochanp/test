@@ -1,0 +1,139 @@
+.bs-member {
+    .img-wrap {
+      //width: 22%;
+      max-width: 30rem;
+      min-width: 30rem;
+      margin-right: 4%;
+      float: left;
+    }
+  
+    .member-detail {
+      position: relative;
+      padding-right: 18rem;
+  
+      .profile-action {
+        position: absolute;
+        top: 2rem;
+        right: 0;
+        display: flex;
+  
+        .item {
+          margin-left: 3.5rem;
+  
+          &:first-child {
+            margin-left: 0;
+          }
+  
+          .icon {
+            font-size: 3.4rem;
+          }
+  
+          a {
+            color: $clr-blue;
+          }
+        }
+      }
+    }
+  
+    .member-loc {
+      font-size: 2.4rem;
+      line-height: 2;
+    }
+  
+    .member-name {
+      font-size: 8.4rem;
+      line-height: 7.5rem;
+      padding-bottom: 2rem;
+      font-family: $barlow-condensed;
+    }
+  
+    .member-info-list {
+      border-bottom: 1px solid #d8d8d8;
+      border-top: 1px solid #d8d8d8;
+      padding: 2rem 0;
+      display: flex;
+  
+      .item {
+        margin-right: 5rem;
+  
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+  
+      .info-title {
+        font-size: 4.2rem;
+        font-family: $barlow-condensed;
+        font-weight: $font-light;
+        display: block;
+        margin-bottom: 1rem;
+      }
+  
+      .info-desc {
+        font-weight: $font-medium;
+      }
+    }
+  
+    .bs-iconinfo-list {
+      padding: 1rem 0;
+      border-bottom: 1px solid #d8d8d8;
+    }
+  }
+  
+  @media only screen and (max-width: $media-md) and (min-width: 768px) {
+  }
+  
+  @media only screen and (max-width: $media-xs) {
+    .bs-member {
+      // display: flex;
+      // flex-wrap: wrap;
+  
+      .img-wrap {
+        width: 25%;
+        max-width: 25%;
+        min-width: 25%;
+        margin-right: 5%;
+      }
+  
+      .member-detail {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 11rem;
+  
+        .profile-action {
+          top: inherit;
+          display: flex;
+          bottom: 2rem;
+          width: 100%;
+          justify-content: center;
+        }
+      }
+  
+      .member-loc {
+        font-size: 1.4rem;
+      }
+  
+      .member-name {
+        font-size: 2.4rem;
+        line-height: 3rem;
+        font-weight: $font-medium;
+      }
+  
+      .member-info-list {
+        padding: 1.5rem 0;
+  
+        .item {
+          margin-right: 4rem;
+        }
+  
+        .info-title {
+          font-size: 2.4rem;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: $media-xxs) {
+  }
+  

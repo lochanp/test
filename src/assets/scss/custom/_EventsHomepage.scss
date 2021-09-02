@@ -1,0 +1,338 @@
+// The SCSS page for Events homepage - To be done by Lochan
+// Project Name: TGP Consumer Webapp
+// -----------------------------
+// Author: Lochan
+// Last Updated:   23/7/2021, 11:30:00 pm
+
+.event-card {
+  font-family: $barlow;
+
+  .main {
+    // margin: 1rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    .head-top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 100px;
+      .eventpage-heading {
+        font-family: $barlow-condensed;
+        width: 600px;
+        height: 154px;
+        margin: 1.2rem 0 1rem 0;
+        font-size: 84px;
+        font-weight: 300;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: 0.92;
+        letter-spacing: normal;
+        color: #000000;
+      }
+
+      .date-container {
+        justify-content: space-between;
+        margin-top: 30px;
+        .arrows {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        }
+        .head-arrow {
+          width: 25px;
+          height: 18px;
+          display: inline;
+          cursor: pointer;
+        }
+        .top-date {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          position: relative;
+          .dropdown-menu {
+            display: flex;
+            cursor: pointer;
+            .Dropdown-root {
+              position: relative;
+              font-family: 'Barlow Condensed', sans-serif;
+              height: 94px;
+              width: 180px;
+              padding-left: 20px;
+              .Dropdown-control {
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                font-size: 80px;
+                font-weight: 300;
+                font-stretch: condensed;
+                font-style: normal;
+                letter-spacing: -1.32px;
+                cursor: pointer;
+                color: $clr-orange;
+                position: relative;
+                overflow: hidden;
+                box-sizing: border-box;
+                cursor: default;
+                outline: none;
+                transition: all 200ms ease;
+                border-bottom: none !important;
+              }
+            }
+
+            .Dropdown-arrow {
+              // border-color: $clr-orange transparent
+              //   transparent;
+              // border-style: solid;
+              // border-width: 16px 9px 0;
+              content: '';
+              display: block;
+              // height: 0;
+              cursor: pointer;
+              position: absolute;
+              right: 15px;
+              // top: 50px;
+              // width: 0;
+              background-image: url('../../../assets/images/ic-dd.svg');
+              width: 19px;
+              height: 19px;
+              background-size: 19px 19px;
+            }
+
+            .is-open .Dropdown-arrow {
+              // border-color: transparent transparent
+              //   $clr-orange;
+              // border-width: 0 9px 16px;
+              background-image: url('../../../assets/images/ic-dd.svg');
+              transform: rotate(180deg);
+            }
+
+            .Dropdown-menu {
+              background-color: #f5f5f5;
+              box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+              box-sizing: border-box;
+              overflow-y: auto;
+              position: absolute;
+              top: 100%;
+              // width: 100%;
+              width: 180px;
+              z-index: 1000;
+              margin-top: 11px !important;
+              right: 1px;
+              -webkit-overflow-scrolling: touch;
+            }
+
+            .Dropdown-menu
+              .Dropdown-group
+              > .Dropdown-title {
+              padding: 8px 10px;
+              color: rgba(51, 51, 51, 1);
+              font-weight: bold;
+              text-transform: capitalize;
+            }
+
+            .Dropdown-option {
+              box-sizing: border-box;
+              color: rgba(51, 51, 51, 0.8);
+              cursor: pointer;
+              display: flex;
+              // padding: 8px 10px;
+              font-family: $barlow;
+              font-size: 14px;
+              font-weight: 300;
+              font-stretch: normal;
+              font-style: normal;
+              line-height: normal;
+              letter-spacing: normal;
+              color: #000;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              padding-left: 54px;
+            }
+
+            .Dropdown-option:last-child {
+              border-bottom-right-radius: 2px;
+              border-bottom-left-radius: 2px;
+            }
+
+            .Dropdown-option:hover {
+              color: #000;
+              font-weight: 500;
+            }
+
+            .Dropdown-option.is-selected {
+              color: #000;
+              display: flex;
+              align-items: center;
+              gap: 15px;
+              font-weight: 500;
+              padding-left: 15px;
+            }
+            .Dropdown-option.is-selected::before {
+              content: '';
+              background: url('../../images/ic-check.svg');
+              background-size: 100% 100%;
+              height: 24px;
+              width: 24px;
+              display: flex;
+            }
+
+            .Dropdown-noresults {
+              box-sizing: border-box;
+              color: #ccc;
+              cursor: default;
+              display: block;
+              padding: 8px 10px;
+            }
+            .custom-border {
+              height: 0.8px;
+              width: 180px;
+              background-color: #cccc;
+              margin-top: 10px;
+              border: none;
+            }
+          }
+        }
+
+        .date-heading {
+          font-family: $barlow-condensed;
+          color: $clr-orange;
+          font-size: 80px;
+          background-color: #ffffff;
+          font-weight: 300;
+          cursor: pointer;
+          width: 160px;
+        }
+
+        .month {
+          margin-right: 3rem;
+        }
+        .drop-down-arrow {
+          width: 14px;
+          height: 14px;
+          display: inline;
+          cursor: pointer;
+          margin-top: 75px;
+        }
+      }
+    }
+  }
+}
+
+.eventcard-container {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.my-grid {
+  display: flex;
+
+  .my-grid_column {
+    margin-right: 32px !important;
+    margin-left: 32px !important;
+  }
+}
+.row {
+  .col {
+    width: 100%;
+    padding-bottom: 100px;
+    .card {
+      width: 404px;
+      border: none !important;
+      margin: 0%;
+      .img-main-container {
+        width: 404px;
+        height: 404px !important;
+        position: relative;
+        background-color: #f5f5f5;
+
+        .img-main {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          right: 0;
+          left: 0;
+          right: 0;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+
+  .location {
+    font-size: 1.3rem;
+    margin-top: 13px;
+  }
+  .card-title {
+    font-family: $barlow-condensed;
+    width: 404px;
+    margin: 5px 13px 15px 0;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: condensed;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .custom-separator {
+    width: 100%;
+    height: 1px;
+    background-color: #cccc;
+  }
+  .date {
+    color: $clr-orange;
+    width: 100%;
+    height: 25px;
+    margin: 15px 13px 15px 0;
+    font-family: Barlow;
+    font-size: 21px;
+    font-weight: 500;
+  }
+  .card-text {
+    margin-bottom: 1.4rem;
+  }
+  label {
+    font-weight: bold;
+    color: #000;
+    font-size: 1.4rem;
+  }
+  .details {
+    font-size: 1.6rem;
+    margin-bottom: 0.9rem;
+  }
+  .card-btn {
+    display: flex;
+    flex-direction: row;
+    p {
+      margin-top: 30px;
+    }
+    .btn-2 {
+      margin-left: 64px;
+    }
+    .details-btn {
+      width: 98px;
+      height: 22px;
+      text-decoration: none;
+      font-family: Barlow;
+      font-size: 18px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: $clr-blue;
+    }
+    .arr {
+      display: inline;
+      // margin-right: 8.6rem;
+      width: 22px;
+      height: 14px;
+      margin-right: 15px;
+      object-fit: contain;
+    }
+  }
+}

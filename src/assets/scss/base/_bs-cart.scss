@@ -1,0 +1,207 @@
+.bs-cart {
+    max-width: 76rem;
+    margin: 0 auto;
+
+    .cart-head {
+        padding: 1.5rem 1rem 1.5rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid $clr-black;
+
+
+
+        .cart-item-count {
+            font-size: 2.4rem;
+        }
+    }
+
+    .cart-list {
+        .list-item {
+            font-size: 1.8rem;
+            display: flex;
+            padding: 3rem 1rem 3rem 0;
+            line-height: 1.2;
+            border-bottom: 1px solid #d8d8d8;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        .img-wrap {
+            min-width: 11rem;
+            max-width: 11rem;
+            margin-right: 1.8rem;
+        }
+
+        .artwork-detail {
+            position: relative;
+            padding-right: 20rem;
+            width: 100%;
+        }
+
+        .src-title {
+            font-weight: $font-semibold;
+
+        }
+
+        .artwork-title,
+        .artwork-price {
+            font-size: 2.4rem;
+        }
+
+        .artwork-title {
+            margin: 0.5rem 0;
+        }
+
+        .artwork-price {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .fnc-increment {
+            margin: 2.2rem 0;
+        }
+
+        .btn-remove {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            font-size: 1.8rem;
+            font-weight: $font-medium;
+            font-family: $barlow;
+            color: $clr-blue;
+
+            .close {
+                margin-left: 1rem;
+            }
+        }
+
+        .artwork-size {
+            font-size: 1.4rem;
+        }
+
+        .artwork-size,
+        .date {
+            font-weight: $font-xtralight;
+        }
+
+        .date {
+            margin-top: 1.5rem;
+        }
+    }
+
+    .shipping-wrap,
+    .calc-wrap {
+        padding: 2.6rem 1rem 2.6rem 0;
+        border-top: 1px solid $clr-black;
+        border-bottom: 1px solid $clr-black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 2.4rem;
+        font-weight: $font-light;
+    }
+
+    .calc-wrap {
+        font-weight: $font-medium;
+        border-top: 0;
+    }
+
+    .cm-act-wrap {
+        margin: 3rem 0;
+
+        .btn {
+            margin-right: 5rem;
+            font-size: 1.8rem;
+        }
+    }
+}
+
+@media only screen and (max-width: $media-xs) {
+
+    .bs-cart {
+        .cart-head {
+            padding: 1.2rem 0.6rem 1.2rem 0;
+
+
+
+            .cart-item-count {
+                font-size: 2rem;
+            }
+        }
+
+        .cart-list {
+            .list-item {
+                padding: 2rem 0;
+                line-height: 1.1;
+                font-size: 1.4rem;
+            }
+
+            .img-wrap {
+                min-width: 8rem;
+                max-width: 8rem;
+                margin-right: 1.6rem;
+            }
+
+            .artwork-detail {
+                padding-right: 0;
+            }
+
+            .artwork-title,
+            .artwork-price {
+                font-size: 1.8rem;
+            }
+
+            .artwork-price {
+                position: static;
+                font-weight: $font-medium;
+            }
+
+            .src-title {
+                padding-right: 3.5rem;
+            }
+
+            .btn-remove {
+                font-size: 0;
+                top: -0.8rem;
+                bottom: inherit;
+
+
+                .close {
+                    font-size: 1.8rem;
+                    line-height: 1.8rem;
+                    padding: 0.5rem 1rem;
+                    display: block;
+                    margin-left: 0;
+                }
+            }
+
+            .artwork-size {
+                margin-bottom: 0.7rem;
+            }
+
+            .date {
+                line-height: 1.3;
+                font-size: 1.5rem;
+            }
+
+            .fnc-increment {
+                margin: 1.8rem 0;
+            }
+        }
+
+        .calc-wrap,
+        .shipping-wrap {
+            padding: 2rem 0rem 2rem 0;
+            font-size: 2rem;
+        }
+
+        .cm-act-wrap .btn {
+            margin-right: 3rem;
+            font-size: 1.6rem;
+        }
+    }
+}

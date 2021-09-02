@@ -1,0 +1,85 @@
+.shopping_image {
+  width: 100%;
+}
+
+.check_image {
+  width: 100%;
+}
+
+.counter_container {
+  padding: 2rem;
+  padding-bottom: 0rem;
+  padding-right: 0rem;
+}
+
+.cart_container {
+  padding-top: 0.8rem;
+}
+
+.cart_counter_container {
+  /* cart container with cart counter */
+
+  //   width: 12vw;
+
+  /* to align the content in a row */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 25px;
+}
+
+.button_box_remove {
+  /* button properties in common */
+
+  /* border properties */
+  /* border: none; */
+
+  /* for inner padding to button */
+  padding: 2.2rem;
+  cursor: pointer;
+
+  /* background properties */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+
+  /* decrement properties of button */
+  background-image: url("../../images/ic-decrease.svg");
+}
+
+.button_box_add {
+  /* button properties in common */
+
+  /* border properties */
+  /* border: none; */
+
+  /* for inner padding to button */
+  padding: 2.2rem;
+  cursor: pointer;
+
+  /* background properties */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+
+  /* increment properties of button */
+  background-image: url("../../images/ic-increase.svg");
+}
+
+
+
+@media only screen and ( min-width: 750px ) and (max-width: 900px) {
+  .cart_counter_container {
+     gap: 8px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .cart_counter_container {
+     gap: 4px;
+  }
+}

@@ -1,0 +1,63 @@
+.bs-artist-info {
+    display: flex;
+
+    .artist-avtar {
+        min-width: 19.2rem;
+        max-width: 19.2rem;
+        min-height: 19.2rem;
+        max-height: 19.2rem;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-right: 4rem;
+    }
+
+    .artist-detail {
+        max-width: 60%;
+    }
+
+    .label {
+        font-size: 1.8rem;
+        margin-bottom: 0.7rem;
+    }
+
+    .title {
+        font-size: 3.6rem;
+        line-height: 4.2rem;
+        margin-bottom: 0.7rem;
+        font-weight: $font-medium;
+    }
+
+    .desc {
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+
+    .btn-see-artist-work {
+        font-size: 1.6rem;
+        font-weight: $font-medium;
+    }
+}
+
+@media only screen and (max-width: $media-md) and (min-width: 768px) {}
+
+@media only screen and (max-width: $media-xs) {
+    .bs-artist-info {
+        display: block;
+
+        .artist-avtar {
+            margin-right: 0;
+            margin-bottom: 1.8rem;
+        }
+
+        .desc {
+            line-height: 1.7;
+            margin-bottom: 1.8rem;
+        }
+
+        .artist-detail {
+            max-width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: $media-xxs) {}

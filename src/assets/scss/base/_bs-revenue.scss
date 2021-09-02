@@ -1,0 +1,27 @@
+.bs-revenue {
+    line-height: 2rem;
+
+    .duration {
+        font-weight: $font-light;
+    }
+
+    .amount {
+        font-size: 4.2rem;
+        line-height: 7rem;
+        font-family: $barlow-condensed;
+        font-weight: $font-light;
+    }
+
+    .type {
+        font-weight: $font-medium;
+    }
+}
+
+@media only screen and (max-width: $media-xs) {
+    .bs-revenue {
+        .amount {
+            font-size: 2.4rem;
+            line-height: 4.2rem;
+        }
+    }
+}

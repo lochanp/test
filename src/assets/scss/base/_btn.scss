@@ -1,0 +1,67 @@
+.btn {
+  display: inline-block;
+  font-family: $barlow;
+  font-weight: $font-medium;
+  font-size: 1.8rem;
+
+  // &.btn-link {}
+
+  &.btn-link-icon-down {
+    color: $clr-blue;
+
+    .icon {
+      width: 22px;
+      height: 14px;
+      margin-top: 15px;
+    }
+  }
+
+  &.btn-default {
+    padding: 1rem 0;
+    color: #577bdf;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+
+    .icon {
+      font-size: 2rem;
+      margin-right: 0.5rem;
+    }
+  }
+
+  &.typ-border {
+    border: 1px solid #979797;
+    padding: 1.4rem 5rem;
+    border-radius: 0.7rem;
+    font-size: 1.6rem;
+    font-family: $barlow;
+
+    .plus {
+      color: #f39100;
+      display: inline-block;
+      margin-right: 0.7rem;
+    }
+  }
+
+  &.btn-primary {
+    background: #0792f9;
+    padding: 1.4rem 2.5rem;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: $clr-white;
+    display: flex;
+    align-items: center;
+
+    .icon {
+      margin-left: 0.8rem;
+      font-size: 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .btn {
+    font-size: 1.5rem;
+  }
+}

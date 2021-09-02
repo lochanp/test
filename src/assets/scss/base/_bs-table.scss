@@ -1,0 +1,65 @@
+.bs-table {
+    table {
+        width: 100%;
+        font-size: 1.8rem;
+        font-weight: $font-light;
+    }
+
+    thead {
+        border-bottom: 1px solid $clr-black;
+    }
+
+    th {
+        font-size: 2rem;
+        font-weight: $font-medium;
+        padding: 1.7rem 0;
+    }
+
+    td {
+        padding: 1.7rem 0;
+
+        .name {
+            color: #0782b5;
+        }
+    }
+
+    tbody {
+        tr {
+            border-bottom: 1px solid #d8d8d8;
+
+            &:last-child {
+                border-bottom-color: $clr-black;
+            }
+        }
+    }
+
+    .align-right {
+        text-align: right;
+        padding-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: $media-xs) {
+    .bs-table {
+        table {
+            font-size: 1.4rem;
+        }
+
+        th {
+            font-size: 1.4rem;
+        }
+
+
+        td {
+            padding: 1.6rem 0.8rem 1.6rem 0;
+
+            .name {
+                font-size: 1.6rem;
+            }
+        }
+
+        .align-right {
+            padding-right: 0.8rem;
+        }
+    }
+}

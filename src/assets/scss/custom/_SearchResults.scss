@@ -1,0 +1,121 @@
+.search-results{
+    .search-info{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        a{
+            display: flex;
+            align-items: center;
+        }
+        div{
+            display: flex;
+            align-items: center;
+
+            span{
+                font-family: $barlow-condensed;
+                font-size: 36px;
+                font-weight: 300;
+                font-stretch: condensed;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #000000;
+                display: flex;
+                align-items: center;
+            }
+
+            .option{
+                height: 44px;
+                width: 44px;
+            }
+        }
+    }
+    
+
+    .other-artworks-title{
+        margin-top: 50px;
+        margin-bottom: 64px;
+        font-family: $barlow-condensed;
+        font-size: 36px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000;
+    }
+
+    .other-artists-title{
+        margin-bottom: 64px;
+        font-family: $barlow-condensed;
+        font-size: 36px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000;
+    }
+
+
+    .search-results-container{
+        margin-top: 50px;
+        margin-bottom: 64px;
+
+        .search-results-total{
+            font-family: $barlow;
+            font-size: 36px;
+            font-weight: 300;
+            font-stretch: condensed;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+        }
+        .search-tag{
+            font-family: $barlow-condensed;
+            font-size: 18px;
+            font-weight: 500;
+            font-stretch: condensed;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000;
+            background-color: #e4e4e4;
+            padding: 6px 20px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+        }
+    }
+    .artists-search-results{
+        margin-top: 64px;
+        margin-bottom: 100px;
+        // padding-left: 50px;
+        // padding-right: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 72px;
+    }
+}
+
+.back-action{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: $barlow;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #577bdf;
+    img{
+        width: 22px;
+        height: 14px;
+    }
+}

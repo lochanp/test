@@ -1,0 +1,36 @@
+.events-container{
+    background: white;
+    .event-card{
+        .main{
+            .search-results-container{
+                margin-top: 15px;
+                .search-results-total{
+                    font-family: $barlow-condensed;
+                    font-size: 36px;
+                    font-weight: 300;
+                    font-stretch: condensed;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #000;
+                }
+                .option{
+                    height: 44px;
+                    width: 44px;
+                }
+            }
+        }
+    }
+
+    .other-events-title{
+        margin-bottom: 64px;
+        font-family: $barlow-condensed;
+        font-size: 36px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000;
+    }
+}

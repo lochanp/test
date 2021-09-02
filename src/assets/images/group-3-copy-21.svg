@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <filter id="pfjpcmu6ta" color-interpolation-filters="auto">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.490196 0 0 0 0 0.698039 0 0 0 1.000000 0"/>
+        </filter>
+        <path id="auoaalehqb" d="M0 0L16 0 16 16 0 16z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g filter="url(#pfjpcmu6ta)" transform="translate(-980.000000, -2008.000000) translate(980.000000, 2008.000000)">
+                <mask id="5mvg3yjbsc" fill="#fff">
+                    <use xlink:href="#auoaalehqb"/>
+                </mask>
+                <path fill="#000" d="M15.238 2.534v7.733c-.001.954-.742 1.732-1.65 1.733H12.57c-.21 0-.38.18-.38.4v2.235l-2.398-2.517c-.07-.075-.169-.118-.269-.118H2.413C1.504 12 .763 11.221.762 10.267V2.534C.763 1.579 1.504.802 2.412.8h11.175c.91.002 1.65.78 1.651 1.734M13.588 0H2.412C1.084.002.002 1.138 0 2.533v7.734c.001 1.395 1.084 2.531 2.412 2.533h6.954l2.936 3.082c.07.075.169.118.269.118h.001c.05 0 .1-.01.145-.03.143-.062.235-.207.235-.37v-2.8h.636c1.328-.002 2.41-1.138 2.412-2.533V2.533C15.999 1.138 14.916.002 13.588 0" mask="url(#5mvg3yjbsc)"/>
+            </g>
+        </g>
+    </g>
+</svg>

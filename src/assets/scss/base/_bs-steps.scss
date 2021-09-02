@@ -1,0 +1,55 @@
+.bs-steps {
+    .list {
+        display: inline-flex;
+        position: relative;
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 10rem;
+            right: 10rem;
+            height: 1px;
+            background: $clr-black;
+        }
+
+        .item {
+            padding-top: 2.8rem;
+            position: relative;
+            width: 20rem;
+
+            &:before {
+                content: "";
+                width: 1.6rem;
+                height: 1.6rem;
+                border-radius: 50%;
+                position: absolute;
+                top: -0.8rem;
+                left: 50%;
+                transform: translateX(-50%);
+                background: $clr-black;
+                border: 0.4rem solid $clr-black;
+            }
+
+            &.active {
+                &:before {
+                    background: #63a816;
+                }
+            }
+
+            .count {
+                opacity: 0.4;
+                margin-bottom: 0.5rem;
+                text-transform: capitalize;
+            }
+
+            .step-title,
+            .count {
+                display: block;
+                font-size: 1.6rem;
+                font-weight: $font-light;
+                font-family: $barlow-condensed;
+            }
+        }
+    }
+}

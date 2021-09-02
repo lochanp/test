@@ -1,0 +1,29 @@
+.bs-revenue-list {
+    display: flex;
+    justify-content: center;
+
+    .item {
+        padding-right: 2rem;
+        width: 18%;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: $media-xs) {
+    .bs-revenue-list {
+        flex-wrap: wrap;
+
+        .item {
+            width: 50%;
+            margin-bottom: 3rem;
+
+            &:last-child,
+            &:nth-last-child(2) {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

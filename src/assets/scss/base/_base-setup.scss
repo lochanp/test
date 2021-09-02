@@ -1,0 +1,187 @@
+/* base setup start */
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: $barlow;
+  background: $clr-white;
+  font-size: 1.4rem;
+  font-weight: $font-light;
+  overflow-x: hidden !important;
+  width: 100%;
+  color: $clr-black;
+
+  &.disable-scroll {
+    overflow: hidden;
+  }
+}
+
+img {
+  width: 100%;
+  font-size: 0;
+  line-height: 0;
+  display: block;
+}
+
+.main {
+  width: 100%;
+}
+
+.cm-line-break {
+  display: block;
+}
+
+.cm-act-wrap {
+  display: block;
+}
+
+.cm-hide {
+  display: none;
+}
+
+.cm-mobile {
+  display: none !important;
+}
+
+.page-title {
+  font-size: 3.6rem;
+  line-height: 4.2rem;
+  font-weight: $font-medium;
+
+  @media only screen and (max-width: $media-xs) {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+
+.page-desc {
+  font-size: 2.4rem;
+  font-family: $barlow-condensed;
+  font-weight: $font-light;
+  margin-top: 0.8rem;
+
+  @media only screen and (max-width: $media-xs) {
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+  }
+}
+
+
+.set-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  .fetch-img-src {
+    display: none;
+  }
+}
+
+.overlay,
+.menu-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+  z-index: 0;
+  transition: all 0.2s ease-in-out;
+
+  &.active {
+    visibility: visible;
+    opacity: 1;
+    z-index: 11;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+button,
+a {
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.mCSB_scrollTools {
+  opacity: 1;
+  width: 6px;
+  border: 1px solid #e7e7e7;
+  border-radius: 3rem;
+
+  .mCSB_draggerRail {
+    width: 4px;
+    background: #e7e7e7;
+  }
+
+  .mCSB_dragger {
+    .mCSB_dragger_bar {
+      background: $clr-white;
+    }
+  }
+}
+
+
+@media only screen and (max-width: $media-xl) and (min-width: $media-lg) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: $media-md) and (min-width: 768px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: $media-xs) {
+  // html {
+  //   font-size: 9px;
+  // }
+
+  header {
+    .container {
+      padding: 0 1.2rem;
+    }
+  }
+
+  .cm-desktop {
+    display: none !important;
+  }
+
+  .cm-mobile {
+    display: block !important;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: $media-xxs) {
+  html {
+    font-size: 8px;
+  }
+
+  .cm-desktop {
+    display: none !important;
+  }
+
+  .cm-mobile {
+    display: block !important;
+  }
+}
+
+/* base setup end */

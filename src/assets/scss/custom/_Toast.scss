@@ -1,0 +1,29 @@
+.toast-main{
+    width: fit-content;
+    background: #f8dbdb;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    color: #ff0000;
+    svg{
+        color: #ff0000;
+    }
+}
+
+.toast-body{
+    display: flex;
+    align-items: center;
+    &::before{
+        content: url('../../images/ic-warning.svg');
+        margin-right: 10px;
+    }
+}
+
+.toast-progress{
+    background-color: #ff0000;
+}

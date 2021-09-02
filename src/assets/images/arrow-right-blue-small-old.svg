@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="11px" viewBox="0 0 12 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow-right-blue</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.341176 0 0 0 0 0.482353 0 0 0 0 0.874510 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <polygon id="path-2" points="0 0 12 0 12 11 0 11"></polygon>
+    </defs>
+    <g id="Registeration-+-Onboarding---Mobile-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="arrow-right-blue">
+            <g>
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M11.875548,5.19024332 C11.8635732,5.17789714 11.843045,5.18318836 11.8310702,5.17084219 C11.8208062,5.15849601 11.8259382,5.13909488 11.8139634,5.12674871 L6.9658933,0.128312021 C6.79995723,-0.0427706738 6.53138031,-0.0427706738 6.36373356,0.128312021 C6.1977975,0.301158456 6.1977975,0.578065499 6.36373356,0.749148194 L10.5480594,5.06149036 L0.306211911,5.06149036 C0.136854485,5.06149036 0,5.20435323 0,5.38072714 L0,5.55710105 C0,5.73347497 0.136854485,5.87633784 0.306211911,5.87633784 L10.609644,5.87633784 L6.36373356,10.2521746 C6.1977975,10.4232573 6.1977975,10.7019281 6.36373356,10.8730108 C6.44755693,10.959434 6.55704052,11 6.66481343,11 C6.7760077,11 6.88378061,10.959434 6.9658933,10.8730108 L11.875548,5.81107949 C12.041484,5.63999679 12.041484,5.36132601 11.875548,5.19024332" id="Fill-1" fill="#FFFFFF" mask="url(#mask-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

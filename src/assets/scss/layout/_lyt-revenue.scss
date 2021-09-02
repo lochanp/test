@@ -1,0 +1,22 @@
+.lyt-revenue {
+    .revenue-graph {
+        margin-top: 4rem;
+    }
+
+    .bs-table {
+        margin-top: 6rem;
+    }
+}
+
+
+@media only screen and (max-width: $media-xs) {
+    .lyt-revenue {
+        .revenue-graph {
+            margin-top: 3rem;
+        }
+
+        .bs-table {
+            margin-top: 4rem;
+        }
+    }
+}
